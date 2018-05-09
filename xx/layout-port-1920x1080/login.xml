@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/text"
+    android:orientation="vertical"
+    android:weightSum="1">"
+    <TextView
+        android:id="@+id/textViewReg"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:text="注册" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="264dp"
+        android:layout_height="199dp"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="50dip"
+        android:background="@drawable/hb"
+        android:layout_gravity="center"
+        android:layout_weight="0.37" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40sp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:text="手机号:" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="bottom"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/text_verify"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="95"
+            android:gravity="center"
+            android:text="点击获取验证码" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/text_login_choice"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="95"
+            android:gravity="center"
+            android:text="密码登陆 >" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40sp">
+        <Button
+            android:id="@+id/reg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="登陆/注册" />
+
+    </LinearLayout>
+ </LinearLayout>

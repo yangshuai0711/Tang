@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#fd8d8d</color>
+	<color name="text">#f0f0f0</color>
+	<color name="ziti1">#878787</color>
+	<color name="blue">#2b61c0</color>
+	<color name="ziti2">#141414</color>
+	<color name="gray">#e0e6f0</color>
+	<color name="black">#484848</color>
+	<color name="title">#f5f5f5</color>
+	<color name="ziti">#9cb4de</color>
+	<color name="ziti3">#999999</color>
+	<color name="ziti4">#b7c8e5</color>
+	<color name="back">#41342f</color>
+	
+</resources>

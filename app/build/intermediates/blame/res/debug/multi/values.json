@@ -1,0 +1,488 @@
+[
+    {
+        "outputFile": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 38,
+                    "endOffset": 89
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 469,
+                        "endColumn": 35,
+                        "endOffset": 503
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 94,
+                    "endColumn": 39,
+                    "endOffset": 129
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 280,
+                        "endColumn": 36,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 134,
+                    "endColumn": 38,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 168,
+                        "endColumn": 35,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endColumn": 38,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 243,
+                        "endColumn": 35,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 37,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 37,
+                        "endOffset": 90
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 38,
+                    "endOffset": 284
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 93,
+                        "endColumn": 35,
+                        "endOffset": 127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 289,
+                    "endColumn": 39,
+                    "endOffset": 324
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 318,
+                        "endColumn": 36,
+                        "endOffset": 353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 329,
+                    "endColumn": 38,
+                    "endOffset": 363
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 356,
+                        "endColumn": 35,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 368,
+                    "endColumn": 39,
+                    "endOffset": 403
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 130,
+                        "endColumn": 36,
+                        "endOffset": 165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 408,
+                    "endColumn": 39,
+                    "endOffset": 443
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 205,
+                        "endColumn": 36,
+                        "endOffset": 240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 448,
+                    "endColumn": 39,
+                    "endOffset": 483
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 393,
+                        "endColumn": 36,
+                        "endOffset": 428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 488,
+                    "endColumn": 39,
+                    "endOffset": 523
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 431,
+                        "endColumn": 36,
+                        "endOffset": 466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 528,
+                    "endColumn": 42,
+                    "endOffset": 566
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 200,
+                        "endColumn": 42,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 571,
+                    "endColumn": 36,
+                    "endOffset": 603
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 36,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 608,
+                    "endColumn": 39,
+                    "endOffset": 643
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 39,
+                        "endOffset": 91
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 648,
+                    "endColumn": 45,
+                    "endOffset": 689
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 45,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 694,
+                    "endColumn": 41,
+                    "endOffset": 731
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 362,
+                        "endColumn": 41,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 736,
+                    "endColumn": 52,
+                    "endOffset": 784
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 96,
+                        "endColumn": 52,
+                        "endOffset": 144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 789,
+                    "endColumn": 35,
+                    "endOffset": 820
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 35,
+                        "endOffset": 274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 825,
+                    "endColumn": 41,
+                    "endOffset": 862
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 404,
+                        "endColumn": 41,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 867,
+                    "endColumn": 50,
+                    "endOffset": 913
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 50,
+                        "endOffset": 195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 918,
+                    "endColumn": 80,
+                    "endOffset": 994
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 80,
+                        "endOffset": 522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 999,
+                    "endLine": 30,
+                    "endColumn": 12,
+                    "endOffset": 1285
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 250,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1290,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 1445
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 581,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1450,
+                    "endLine": 38,
+                    "endColumn": 9,
+                    "endOffset": 1693
+                },
+                "from": {
+                    "file": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 776,
+                        "endLine": 24,
+                        "endColumn": 9,
+                        "endOffset": 1023
+                    }
+                }
+            }
+        ]
+    }
+]

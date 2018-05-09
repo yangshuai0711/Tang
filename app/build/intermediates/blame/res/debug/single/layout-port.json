@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\loading.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\loading.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\fragment_app.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\fragment_app.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\fragment_mine.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\fragment_mine.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_main.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\row2.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\row2.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\row.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\row.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\schoolmap.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\schoolmap.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\institutemain.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\institutemain.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\baodao.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\baodao.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_location.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\activity_location.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\tangshan1.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\tangshan1.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\tangshan.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\tangshan.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\information.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\information.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\reg.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\reg.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\login.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\login.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_home.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\more.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\more.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\main.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\main.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\xueyuan.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\xueyuan.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\schooldetail.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\schooldetail.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\fragment_profile.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\fragment_profile.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\tangshaninfor.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\tangshaninfor.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\school.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\school.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\ditu.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\ditu.xml"
+    },
+    {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\layout-port\\row1.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\layout-port\\row1.xml"
+    }
+]

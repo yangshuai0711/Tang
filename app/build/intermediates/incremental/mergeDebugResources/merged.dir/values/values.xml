@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="back">#41342f</color>
+    <color name="black">#484848</color>
+    <color name="blue">#2b61c0</color>
+    <color name="gray">#e0e6f0</color>
+    <color name="red">#fd8d8d</color>
+    <color name="text">#f0f0f0</color>
+    <color name="title">#f5f5f5</color>
+    <color name="ziti">#9cb4de</color>
+    <color name="ziti1">#878787</color>
+    <color name="ziti2">#141414</color>
+    <color name="ziti3">#999999</color>
+    <color name="ziti4">#b7c8e5</color>
+    <string name="String4">&lt;更多</string>
+    <string name="about">关于</string>
+    <string name="app_name">糖城</string>
+    <string name="back">&lt;&lt;&lt;</string>
+    <string name="external">校外导航</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help">帮助</string>
+    <string name="internal">校内导航</string>
+    <string name="menu_settings">Settings</string>
+    <string name="xueyuan">&lt;                                    学院信息</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="activityTheme" parent="android:Theme.Light">
+       <item name="android:windowNoTitle">true</item>
+       <item name="android:windowIsTranslucent">true</item>
+       <item name="android:windowContentOverlay">@null</item>
+ </style>
+</resources>

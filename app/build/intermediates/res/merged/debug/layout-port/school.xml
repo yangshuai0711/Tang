@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/text"
+    tools:context=".SchoolActivity" >
+   <ImageView
+	       android:id="@+id/ImageView01"
+	       android:layout_width="fill_parent"
+	       android:layout_height="120dip"
+       />
+    <ListView
+        android:id="@+id/listView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:footerDividersEnabled="true"
+      />
+</LinearLayout>

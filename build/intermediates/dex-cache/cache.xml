@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Android_App\CampusAssistant\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6a79ef91fa604659b868e4a7a9b8dd648d399ea8">
+        <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0538146ee882b7a9e480ef58117f80605c1c118e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android_App\CampusAssistant\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="26b5895a31dc13772322ab4c6786880925711010">
+        <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_19f255d09855f808a6aa626f51f5ead1dcaee679\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android_App\CampusAssistant\app\libs\android_api_1.1_forsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="610ab8a4952cfec5cc008a697790e21dec7b8d3a">
+        <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\2\android_api_1.1_forsdk_ced13f8aa810b228b8eda8a43e84f08fa7e6056a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android_App\CampusAssistant\app\libs\galaxy_mini.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="58de9ecfba229dbb2c3eb3f45dbe284ba58100ea">
+        <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\2\galaxy_mini_7f3cf00951ac8769f36c23046853a8b7de4cfebc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android_App\CampusAssistant\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c749280e5d6dad509b62bd344c663988898e3edc">
+        <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_c1662c3ceb63f43c0545ed3c245aa7833580c9a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android_App\CampusAssistant\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_b782b509c0da33ce21e1ea4ef66e061638cd1f72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android_sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_391fd0087954d6d4c2c4f7676114b26c33f79170\classes.dex" />
+    </item>
+
+</items>
