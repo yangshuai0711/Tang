@@ -49,6 +49,16 @@ public class TangJson {
         return 0;
     }
 
+    public double getDouble(String k){
+        try {
+            double r = jv.getDouble(k);
+            return r;
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return 0;
+    }
+
     public String getString(String k){
         try {
             String str = jv.getString(k);

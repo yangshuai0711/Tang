@@ -13,7 +13,7 @@ public class TangClient{
     private HttpUtil cli;
     Context mc;
     public TangClient(Context c){
-        url_base = "http://118.24.23.203:9000/api/";
+        url_base = "http://111.231.121.197:9000/api/";
         cli = new HttpUtil();
         mc = c;
     }

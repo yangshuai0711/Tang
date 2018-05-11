@@ -5,6 +5,7 @@ import java.io.File;
 import edu.heuu.campusAssistant.activity.HomeActivity;
 import edu.heuu.campusAssistant.activity.MainActivityGroup;
 import edu.heuu.campusAssistant.map.R;
+import edu.heuu.campusAssistant.util.Global;
 import edu.heuu.campusAssistant.util.TangClient;
 import edu.heuu.campusAssistant.util.TangCrypt;
 
@@ -82,7 +83,7 @@ public class LoginActivity extends Activity
 
 			String phone = params[0];
 			String passwd = params[1];
-
+			Global.phone = phone;
 			String ret = new TangClient(getApplicationContext()).login_phone(phone, passwd);
 			if(ret.length() != 0){
 				publishProgress("µÇÂ½Ê§°Ü£º"+ret);
@@ -98,6 +99,7 @@ public class LoginActivity extends Activity
 
 		protected void onPostExecute(Integer result) {
 			if(result == 1){
+
 				Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
 				intent.setClass(LoginActivity.this, HomeActivity.class);
 				startActivity(intent);

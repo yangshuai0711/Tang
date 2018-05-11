@@ -86,7 +86,7 @@ int id login_text_reg 0x7f070034
 int id login_white_paper 0x7f07002d
 int id mapview_layout 0x7f070019
 int id mine_img_background 0x7f07001a
-int id mine_tv_asset 0x7f07001d
+int id mine_tv_balance 0x7f07001d
 int id mine_tv_mine 0x7f07001b
 int id mine_tv_power 0x7f07001e
 int id mine_tv_time 0x7f07001f

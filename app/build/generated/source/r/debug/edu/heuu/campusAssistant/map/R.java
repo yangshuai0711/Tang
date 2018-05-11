@@ -103,7 +103,7 @@ public final class R {
         public static final int login_white_paper=0x7f07002d;
         public static final int mapview_layout=0x7f070019;
         public static final int mine_img_background=0x7f07001a;
-        public static final int mine_tv_asset=0x7f07001d;
+        public static final int mine_tv_balance=0x7f07001d;
         public static final int mine_tv_mine=0x7f07001b;
         public static final int mine_tv_power=0x7f07001e;
         public static final int mine_tv_time=0x7f07001f;

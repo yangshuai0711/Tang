@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
-        sha1="6a79ef91fa604659b868e4a7a9b8dd648d399ea8">
+        sha1="15cc8075266b80d78a6d9d361f670fadf8506295">
         <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0538146ee882b7a9e480ef58117f80605c1c118e\classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
-        sha1="26b5895a31dc13772322ab4c6786880925711010">
+        sha1="de91683391b77f9149c346d351cb428eabb595c8">
         <dex dex="E:\Android_App\CampusAssistant\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_19f255d09855f808a6aa626f51f5ead1dcaee679\classes.dex" />
     </item>
     <item
