@@ -1,5 +1,6 @@
 package edu.heuu.campusAssistant.activity.home;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -23,7 +24,7 @@ public class MineFragment extends Fragment {
     final int STATUS_MINE_RIPE = 2;
     final int STATUS_MINE_LOST = 3;
     TangClient cli;
-    int t_left, status, background_timing;
+    int t_left, status;
     double balance, power, mine_val;
 
     TextView tv_balance, tv_power, tv_time;
@@ -37,7 +38,6 @@ public class MineFragment extends Fragment {
         return view;
     }
     public void init(View v){
-        background_timing = 0;
         cli = new TangClient(v.getContext());
         tv_balance = (TextView)v.findViewById(R.id.mine_tv_balance);
         tv_power = (TextView)v.findViewById(R.id.mine_tv_power);
@@ -103,10 +103,8 @@ public class MineFragment extends Fragment {
             }
 
             if(t_left > 0){
-                if(background_timing == 0){
-                    background_timing = 1;
-                    new BackgroundMineTimingTask().execute();
-                }
+                tv_mine.setEnabled(false);
+                new BackgroundMineTimingTask().execute();
             }
         }
     }
@@ -172,10 +170,28 @@ public class MineFragment extends Fragment {
                     update_mine_status(STATUS_MINING, t_left);
                 }
             }
-            background_timing = 0;
+            tv_mine.setEnabled(true);
         }
     }
 
+    public String decimal_str(float val, int nres){
+        float a_amend = (float) 0.5;
+        for (int i = 0; i < nres; i++){
+            a_amend /= 10.0;
+        }
+        val += a_amend;
+
+        int N = (int)val;
+        float res = val - (float)N;
+        String strRes = ".";
+        for(int i = 0; i < nres; i++){
+            res *= 10.0;
+            int di = (int)(res);
+            strRes += String.valueOf(di);
+            res = res - (float) di;
+        }
+        return String.valueOf(N) + strRes;
+    }
 
     public void update_balance(double balance){
         tv_balance.setText("总资产：" + String.valueOf(balance));
@@ -184,15 +200,28 @@ public class MineFragment extends Fragment {
         tv_power.setText("算力值：" + String.valueOf(power));
     }
 
+    int mining_display_pixel = 0;
+    int mining_display_pixel_max = 3;
     public void update_mine_status(int status, int ts_left){
         if(ts_left < 0){
             ts_left = 0;
         }
-
+        tv_mine.setBackgroundColor(Color.TRANSPARENT);
         if(status == STATUS_MINING){
-            tv_mine.setText("挖矿中["+ ts_to_time(ts_left) + "]");
+            String strMining = "挖矿中.";
+            for (int n = 0; n < mining_display_pixel; n++){
+                strMining += ".";
+            }
+            mining_display_pixel ++;
+            if(mining_display_pixel >= mining_display_pixel_max){
+                mining_display_pixel = 0;
+            }
+
+            tv_mine.setText(strMining);
         }else if(status == STATUS_MINE_RIPE){
-            tv_mine.setText("成功挖矿:" + String.valueOf(mine_val));
+            String strVal = decimal_str((float) mine_val, 2);
+            tv_mine.setText("成功挖矿:" + strVal +" 点击领取");
+            tv_mine.setBackgroundColor(0xFF93FFCC);
         }else if(status == STATUS_MINE_LOST){
             tv_mine.setText("矿已流失");
         }
