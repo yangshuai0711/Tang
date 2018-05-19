@@ -20,8 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:gravity="center"
-            android:text="你是糖城1022位居民"
-            android:textSize="20sp" />
+            android:text="你是糖城1022位居民" />
     </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"

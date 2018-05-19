@@ -26,7 +26,7 @@ public class MineFragment extends Fragment {
     final int STATUS_MINE_LOST = 3;
     TangClient cli;
     int t_left, status;
-    double balance, power, mine_val;
+    double power, mine_val;
 
     TextView tv_balance, tv_power, tv_time;
     TextView tv_mine;
@@ -97,7 +97,7 @@ public class MineFragment extends Fragment {
                     mine_val = produce.getDouble("val");
                 }
 
-                balance = data.getDouble("balance");
+                Global.balance = data.getDouble("balance");
                 power = data.getDouble("power");
 
                 return 1;
@@ -107,7 +107,7 @@ public class MineFragment extends Fragment {
 
         protected void onPostExecute(Integer result) {
             if(result == 1){
-                update_balance(balance);
+                update_balance(Global.balance);
                 update_power(power);
                 update_mine_status(status, t_left);
             }
