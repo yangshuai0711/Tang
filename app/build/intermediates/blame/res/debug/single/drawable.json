@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_mine.xml",
+        "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\drawable\\btn_mine.xml"
+    },
+    {
         "merged": "E:\\Android_App\\CampusAssistant\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio.xml",
         "source": "E:\\Android_App\\CampusAssistant\\app\\src\\main\\res\\drawable\\radio.xml"
     },

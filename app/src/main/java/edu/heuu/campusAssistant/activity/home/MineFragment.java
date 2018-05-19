@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +30,7 @@ public class MineFragment extends Fragment {
 
     TextView tv_balance, tv_power, tv_time;
     TextView tv_mine;
+    Button btn_mine;
     Context context;
     @Override
     public View onCreateView(LayoutInflater inflater,
@@ -43,7 +45,15 @@ public class MineFragment extends Fragment {
         tv_power = (TextView)v.findViewById(R.id.mine_tv_power);
         tv_time = (TextView)v.findViewById(R.id.mine_tv_time);
         tv_mine = (TextView)v.findViewById(R.id.mine_tv_mine);
+        btn_mine = (Button)v.findViewById(R.id.mine_btn_mine);
         context = v.getContext();
+        btn_mine.setVisibility(View.INVISIBLE);
+        btn_mine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new CollectMineTask().execute();
+            }
+        });
         tv_mine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -206,7 +216,9 @@ public class MineFragment extends Fragment {
         if(ts_left < 0){
             ts_left = 0;
         }
-        tv_mine.setBackgroundColor(Color.TRANSPARENT);
+        //tv_mine.setBackgroundColor(Color.TRANSPARENT);
+        tv_mine.setVisibility(View.VISIBLE);
+        btn_mine.setVisibility(View.INVISIBLE);
         if(status == STATUS_MINING){
             String strMining = "挖矿中.";
             for (int n = 0; n < mining_display_pixel; n++){
@@ -220,8 +232,13 @@ public class MineFragment extends Fragment {
             tv_mine.setText(strMining);
         }else if(status == STATUS_MINE_RIPE){
             String strVal = decimal_str((float) mine_val, 2);
-            tv_mine.setText("成功挖矿:" + strVal +" 点击领取");
-            tv_mine.setBackgroundColor(0xFF93FFCC);
+            btn_mine.setText("点击领取:" + strVal);
+
+            btn_mine.setVisibility(View.VISIBLE);
+            tv_mine.setVisibility(View.INVISIBLE);
+
+            //tv_mine.setText("成功挖矿:" + strVal +" 点击领取");
+            //tv_mine.setBackgroundColor(0xFF93FFCC);
         }else if(status == STATUS_MINE_LOST){
             tv_mine.setText("矿已流失");
         }
