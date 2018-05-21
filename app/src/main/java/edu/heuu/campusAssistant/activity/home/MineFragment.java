@@ -184,27 +184,8 @@ public class MineFragment extends Fragment {
         }
     }
 
-    public String decimal_str(float val, int nres){
-        float a_amend = (float) 0.5;
-        for (int i = 0; i < nres; i++){
-            a_amend /= 10.0;
-        }
-        val += a_amend;
-
-        int N = (int)val;
-        float res = val - (float)N;
-        String strRes = ".";
-        for(int i = 0; i < nres; i++){
-            res *= 10.0;
-            int di = (int)(res);
-            strRes += String.valueOf(di);
-            res = res - (float) di;
-        }
-        return String.valueOf(N) + strRes;
-    }
-
     public void update_balance(double balance){
-        tv_balance.setText("总资产：" + String.valueOf(balance));
+        tv_balance.setText("总资产：" + Global.decimal_str((float) balance, 2));
     }
     public void update_power(double power){
         tv_power.setText("算力值：" + String.valueOf(power));
@@ -231,7 +212,7 @@ public class MineFragment extends Fragment {
 
             tv_mine.setText(strMining);
         }else if(status == STATUS_MINE_RIPE){
-            String strVal = decimal_str((float) mine_val, 2);
+            String strVal = Global.decimal_str((float) mine_val, 2);
             btn_mine.setText("点击领取:" + strVal);
 
             btn_mine.setVisibility(View.VISIBLE);

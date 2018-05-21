@@ -32,14 +32,15 @@
             android:gravity="left|center"
             android:layout_marginLeft="20dp"
             android:text="总资产"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
         <TextView
+            android:id="@+id/profile_tv_balance"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="right|center"
             android:layout_marginRight="20dp"
             android:text="0>"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
     <View
         android:layout_width="fill_parent"
@@ -57,14 +58,14 @@
             android:gravity="left|center"
             android:layout_marginLeft="20dp"
             android:text="钱包地址"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="right|center"
             android:layout_marginRight="20dp"
             android:text="未绑定>"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
     <View
         android:layout_width="fill_parent"
@@ -82,14 +83,14 @@
             android:gravity="left|center"
             android:layout_marginLeft="20dp"
             android:text="提现"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="right|center"
             android:layout_marginRight="20dp"
             android:text="敬请期待>"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
     <View
         android:layout_width="fill_parent"
@@ -107,14 +108,14 @@
             android:gravity="left|center"
             android:layout_marginLeft="20dp"
             android:text="官方公告"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="right|center"
             android:layout_marginRight="20dp"
             android:text=">"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
     <View
         android:layout_width="fill_parent"
@@ -132,14 +133,14 @@
             android:gravity="left|center"
             android:layout_marginLeft="20dp"
             android:text="白皮书"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="right|center"
             android:layout_marginRight="20dp"
             android:text=">"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
     <View
         android:layout_width="fill_parent"
@@ -157,14 +158,14 @@
             android:gravity="left|center"
             android:layout_marginLeft="20dp"
             android:text="帮助反馈"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="right|center"
             android:layout_marginRight="20dp"
             android:text=">"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </LinearLayout>
     <View
         android:layout_width="fill_parent"
